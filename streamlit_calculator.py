@@ -198,7 +198,7 @@ with col4:
     st.button("/", key="divide", on_click=lambda: add_to_display("/"))
     st.button("x", key="multiply", on_click=lambda: add_to_display("*"))
     st.button("_", key="subtract", on_click=lambda: add_to_display("-"))
-    st.button("+", key="add", on_click=lambda: add_to_display("+"))
+    st.button("++", key="add", on_click=lambda: add_to_display("+"))
 # Add instructions
 st.markdown("""
     ### Instructions:
