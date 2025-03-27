@@ -197,13 +197,6 @@ with col2:
     st.button("=", key="equals", on_click=calculate)
     st.button("+", key="add", on_click=lambda: add_to_display("+"))
 
-# Add some spacing
-with col3:
-    st.write("")
-
-# Add some spacing
-with col4:
-    st.write("")
 
 # Add instructions
 st.markdown("""
