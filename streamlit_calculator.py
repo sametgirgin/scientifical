@@ -175,7 +175,7 @@ with col2:
     st.button("cos", key="cos", on_click=cos)
     st.button("x³", key="cube", on_click=cube)
     st.button("e", key="e", on_click=lambda: add_to_display(str(math.e)))
-    st.button("⌫", key="backspace", on_click=backspace)
+    st.button("<x", key="backspace", on_click=backspace)
     st.button("±", key="toggle_sign", on_click=lambda: add_to_display("-"))
     st.button("M+", key="memory_add", on_click=memory_add)
     st.button("8", key="8", on_click=lambda: add_to_display("8"))
